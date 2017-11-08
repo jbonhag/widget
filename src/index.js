@@ -1,5 +1,5 @@
 import buildWidget from './widget';
 
-buildWidget (
+buildWidget(
   document.getElementById('root')
 );
