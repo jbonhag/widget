@@ -2,9 +2,11 @@
   "name": "widget",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "webpack": "webpack --config webpack.config.js",
+    "rollup": "rollup src/index.js -o dist/bundle.js -f iife --name widget"
   },
   "devDependencies": {
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "rollup": "^0.50.0"
   }
 }
